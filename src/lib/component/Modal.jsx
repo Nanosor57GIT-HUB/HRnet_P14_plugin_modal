@@ -1,4 +1,5 @@
 import React from 'react';
+import "./main.css";
 
 
 const Modal = (props) => {
@@ -11,7 +12,7 @@ const action = props.action
         <div className="modal">
           <div className="ContainerCloseModal">
           <img
-            src="../images/logo.svg"
+            src="../../images/closeModal.svg"
             className="closeModal"
             alt="close-modal"
             onClick={action}

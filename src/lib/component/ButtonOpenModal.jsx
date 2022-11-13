@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "./Modal";
 import { useState } from "react";
 
-const Header = () => {
+const ButtonOpenModal = () => {
   const [modalState, setModalState] = useState(false);
 
   function openModal() {
@@ -16,12 +16,11 @@ const Header = () => {
         className="toggleModal nav-link"
         onClick={openModal}
       >
-        Create Employee
+        Click-Me !
       </button>
-      
       <Modal toggle={modalState} action={openModal} />
     </div>
   );
 };
 
-export default Header;
+export default ButtonOpenModal;
