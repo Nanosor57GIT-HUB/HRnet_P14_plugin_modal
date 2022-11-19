@@ -25,12 +25,14 @@ const Modal = props => {
   }), /*#__PURE__*/_react.default.createElement("span", {
     className: "close"
   }, "Close")), /*#__PURE__*/_react.default.createElement("div", {
-    className: "containerTitle"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "hrnetTitle"
-  }, "HRnet"), /*#__PURE__*/_react.default.createElement("h1", {
-    className: "TitleSociete"
-  }, "WealthHealth"))));
+    className: "content"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "../../images/imgModal.svg",
+    className: "imgModal",
+    alt: "img modal"
+  }), /*#__PURE__*/_react.default.createElement("h1", {
+    className: "title"
+  }, "Employee successfully created!"))));
 };
 var _default = Modal;
 exports.default = _default;
